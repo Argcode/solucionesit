@@ -1,0 +1,178 @@
+
+/* Global ---------------------------------------------------*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-size: 20px;
+	font-family: verdana, arial, sans-serif;
+	line-height: 1.5;
+	background: url("../Fotos/thumb-1920-176123.jpg") no-repeat 0 -550px;
+
+}
+
+img {
+	width: 30px;
+	float: left;
+	padding-top: 3px;
+	margin-right: 4px;
+}
+
+header h1 {
+	font-size: 25px;
+	font-family: ubuntu, arial;
+	color: #ffffff;
+	padding-top: 8px;
+	text-decoration: none;
+	text-transform: none;
+	display: inline;
+
+}
+
+#logo {
+	display: inline;
+}
+
+nav {
+	float: right;
+	text-decoration: none;
+	display: inline-block;
+
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	color: white;
+	padding: 0 20px 0 20px;
+	margin-bottom: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header --------------------------------------*/
+
+header {
+	padding-top: 20px;
+  min-height: 50px;
+	background:  #0066ff;
+	border-bottom: #ff3300 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header .current a{
+	color: #000;
+	font-weight: bold;
+}
+
+header a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+/* Articulo ----------------------------------------------*/
+
+#articulo {
+	min-height: 500px;
+	color: white;
+	text-align: center;
+	background: url("../Fotos/thumb-1920-176123.jpg") no-repeat 0 -550px;
+
+}
+
+#articulo h2 {
+  font-size: 50px;
+	margin-top: 100px;
+  margin-bottom: 20px;
+	background-color: #0066ff;
+	font-family: arial, Ubuntu, sans-serif;
+}
+
+#articulo p {
+	font-size: 25px;
+	background-color: #ff3300;
+}
+
+/* Servicios ------------------------------------------------*/
+
+	#servicios {
+		background-color: #3333ff;
+		color: #fff;
+		border: 1px #000 solid;
+		border-left: 3px #ff3300 solid;
+		border-radius: 1px;
+		width: 80%;
+		line-height: 1.5;
+		display: inline-block;
+		align-content: center;
+		padding: 20px;
+		margin: 30px 0 47px 50px;
+	}
+
+#servicios h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#servicios p {
+	font-size: 20px;
+}
+
+#servicios span {
+	color: ;
+}
+
+#contactos {
+	background-color: #3333ff;
+	color: #fff;
+	border: 1px #000 solid;
+	border-left: 3px #ff3300 solid;
+	border-radius: 1px;
+	width: 80%;
+	line-height: 1.5;
+	display: inline-block;
+	align-content: center;
+	padding: 20px;
+	margin: 100px 0 230px 50px;
+}
+
+#contactos img {
+	padding-right: 5px;
+	float: left;
+}
+
+#contactos a {
+	float: right;
+}
+
+
+/* Footer --------------------------------------------------*/
+
+footer {
+	border-top: #ff3300 3px solid;
+	padding: 24px;
+	font-size: 20px;
+	background: #000;
+	color: white;
+	text-align: center;
+}
